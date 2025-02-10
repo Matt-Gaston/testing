@@ -9,7 +9,9 @@ using namespace std;
 int main(int argc, char** argv) 
 {
     string buf;
+    cout << "enter filter char" << endl;
     char match = '#';
+    cin >> match;
 
     while(getline(cin, buf)) 
     {
